@@ -1,0 +1,236 @@
+ body{
+    margin:0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.sec-1{
+    background-image: url(testil.jpg);
+    height: 563px;
+    justify-content: center;
+    display: flex;
+    background-size: cover;
+    color: black;
+}
+
+.sec-1 p{
+    position: relative;
+    left: 1px;
+    text-align: center;
+    font-size: 2em;
+    top: -20px;
+    text-transform: capitalize;
+    
+}
+
+.sec-1 h2{
+    position: relative;
+    left: 350px;
+    text-align: center;
+    font-size: 2em;
+    top:175px;
+    text-transform: capitalize;
+}
+
+.sec-1 h1{
+    position: relative;
+    left: -205px;
+    text-align: center;
+    font-size: 2em;
+    top: 233px;
+    color: aqua;
+    text-transform: capitalize;
+}
+
+.sec-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 367px;
+    align-items: center;
+    background-color: rgb(248, 219, 224);
+}
+
+.content{
+    width: 12%;
+    height: 18vh;
+    text-align: center;
+    font-style: italic;
+    color: mediumaquamarine;
+    display: flex;
+    flex-direction: column;
+}
+
+.img{
+    background-color: red;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    left: 63px;
+    top: -49px;
+}
+
+.img img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:50px ;
+    height: 50px;
+    object-fit: cover;
+}
+
+.text{
+    color: blue;
+}
+
+.sec-3{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(240, 255, 255, 0.815);
+}
+.sec-3 img{
+    height: 274px;
+    width: 50%;
+    border-image-width:86px;
+    size: 500px;
+
+}
+.sec-3-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.sec-3-text h4{
+    color: rgb(220, 20, 130);
+}
+
+.sec-3-text h3{
+    color: black;
+}
+
+.sec-3-text h5{
+    color: rgba(20, 1, 70, 0.671);
+}
+
+.sec-3-text-sui{
+    display: flex;
+    flex-direction: row;
+}
+
+.sec-3-text-sui h4{
+    color: black;
+}
+
+.sec-3-text-sui h5{
+    color: rgba(20, 1, 70, 0.671);
+}
+
+.sec-4{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(115, 218, 123);
+}
+
+.hi a{
+    color: rgba(199, 7, 7, 0.801);
+    text-decoration: none;
+}
+.hi h3{
+    color: rgba(199, 7, 7, 0.801);
+}
+.hi p{
+    color: rgba(50, 7, 151, 0.637);
+}
+.hi h5{
+    color: rgba(144, 127, 243, 0.733);
+}
+
+.me img{
+    height: 200px;
+    width: 50%;
+}
+
+.me p h3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sec-5{
+    text-align: center;
+    background-color: rgb(100, 161, 161);
+}
+.sec-5 h4{
+    color: crimson;
+}
+.sec-5 h3{
+    color: black;
+}
+
+
+.sec-6{
+    background-color: rgb(180, 140, 218);
+}
+.about{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.de{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.de img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 288px;
+    object-fit: cover;
+}
+
+.sec-7{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(210, 177, 241, 0.952); 
+}
+.sec-7 img{
+    height: 276px;
+    width: 406px;
+   
+}
+.sec-7-text{
+    display: flex;
+    flex-direction: column;
+    text-align:justify; 
+}
+.sec-7-text h4{
+    color: crimson;
+}
+.sec-7-text h3{
+    color: black;
+}
+.sec-7-text h5{
+    color: rgba(223, 12, 142, 0.5);
+}
+
+
+.sec-8{
+    background-color: rgb(134, 182, 190);
+    
+}
+.or{
+    text-align: center;
+    justify-content: center;
+}
+.or h4{
+    color: crimson;
+}
+.or h2{
+    color: white;
+    text-transform: capitalize;
+}
